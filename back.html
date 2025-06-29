@@ -1,0 +1,21 @@
+<div class="card-header">
+  <div class="card-title" style="font-size: 2.5em; font-weight: bold; color: #89b4fa;">{{word}}</div>
+  <hr class="divider">
+  <div class="card-content">
+    {{#hiragana}}
+      <div class="card-section reading"><span class="section-label">読み方</span> {{hiragana}}</div>
+    {{/hiragana}}
+    {{#definition (日本語)}}
+      <div class="card-section japanese-definition"><span class="section-label">和定義</span>{{definition (日本語)}}</div>
+    {{/definition (日本語)}}
+    {{#definition (英語)}}
+      <div class="card-section english-definition"><span class="section-label">英訳</span>{{definition (英語)}}</div>
+    {{/definition (英語)}}
+    {{#sentence (日本語)}}
+      <div class="card-section example-sentence"><span class="section-label">例文</span> {{sentence (日本語)}}</div>
+    {{/sentence (日本語)}}
+    {{#sentence (英語)}}
+      <div class="card-section translation"><span class="section-label">例文訳</span> {{sentence (英語)}}</div>
+    {{/sentence (英語)}}
+  </div>
+</div>

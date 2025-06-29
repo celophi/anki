@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'Noto Sans JP';
+  src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+}
+
+/* Minimalist and elegant Anki card style */
+.card-container {
+  font-family: 'Noto Sans JP', Arial, sans-serif;
+  background: #1e1e2e;
+  color: #cdd6f4;
+  padding: 8px;
+  margin: 10px auto 0;
+  text-align: left;
+  max-width: 700px;
+}
+
+.card-header {
+  background: transparent;
+  border-radius: 12px;
+  color: inherit;
+  padding: 0;
+  box-shadow: none;
+}
+
+.card-title {
+  font-size: 2em;
+  font-weight: bold;
+  color: #89b4fa;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #313244;
+  margin: 16px 0;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card-section {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px;
+  background: #313244;
+  border-radius: 8px;
+  font-size: 1.2em;
+}
+
+.section-label {
+  font-size: 1em;
+  font-weight: 600;
+  color: #cdd6f4;
+  min-width: 15%;
+}
+
+.reading {
+  color: #a6e3a1;
+  font-weight: 400;
+  border-left: 3px solid #a6e3a1;
+  padding-left: 12px;
+}
+
+.english-definition {
+  color: #e78c45;
+  font-weight: 400;
+  border-left: 3px solid #e78c45;
+  padding-left: 12px;
+}
+
+.japanese-definition {
+  color: #f9e2af;
+  font-weight: 400;
+  border-left: 3px solid #f9e2af;
+  padding-left: 12px;
+}
+
+.example-sentence {
+  color: #f38ba8;
+  font-weight: 400;
+  border-left: 3px solid #f38ba8;
+  padding-left: 12px;
+}
+
+.translation {
+  color: #f5c2e7;
+  font-weight: 400;
+  border-left: 3px solid #f5c2e7;
+  padding-left: 12px;
+}
+
+.cloze-highlight {
+  color: #a6e3a1;
+  font-weight: 400;
+}
+
+@media (max-width: 500px) {
+  .card-container {
+    padding: 8px;
+    font-size: 1em;
+  }
+  .card-title {
+    font-size: 1.5em;
+  }
+  .card-section {
+    font-size: 1em;
+    padding: 8px;
+  }
+}
