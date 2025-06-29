@@ -13,7 +13,7 @@ The theme is inspired by the minimalist and elegant aesthetics of the Tomorrow N
 ## Preview
 Below is a preview of the card design:
 
-![Preview](preview.jpg)
+<img src="preview.jpg" alt="Preview" style="max-width: 600px; display: block; margin: 0 auto;">
 
 ## Importing Using CrowdAnki
 To import this theme into Anki using the CrowdAnki plugin:
@@ -31,4 +31,4 @@ If you prefer not to use the CrowdAnki plugin, you can manually copy the provide
 3. Replace the back template with the contents of `back.html`.
 4. Replace the styling with the contents of `styling.css`.
 
-Enjoy your custom Anki theme!
+Enjoy!
